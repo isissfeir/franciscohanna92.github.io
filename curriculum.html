@@ -1,0 +1,157 @@
+---
+layout: default
+---
+<div class="row">
+    <div class="col-sm-9">
+        <h1 class="mb-4">
+            CURRÍCULUM VITAE
+            <button class="btn btn-default text-muted float-right"><i class="fa fa-download"></i> Descargar PDF</button>
+        </h1>
+        
+        {% for section in site.data.curriculum %}
+        <section id="{{section.slug}}" class="mb-5">
+            <h3 class="text-uppercase">{{ section.name }}</h3>
+            <hr>
+            {% for item in section.items %}
+            <div>
+                <span class="float-right"><strong>{{ item.from }} - {{ item.to }}</strong></span>
+                <h4><strong>{{ item.title }}</strong></h4>
+                <h5 class="text-muted">{{ item.subtitle }}</h5>
+                <p>{{ item.description }}</p>
+            </div>
+            {% endfor %}
+        </section>
+        {% endfor %}
+    </div>
+    <div class="col">
+        <ul class="nav flex-column border border-primary rounded sticky-top">
+            {% for section in site.data.curriculum %}
+            <li class="nav-item p-2">
+                <a class="nav-link" href="#{{section.slug}}">{{section.name}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<!-- 
+<section class="mb-5">
+    <h2>PUBLICACIONES</h2>
+    <ul>
+        <li>
+            <h3>Experimentos de física utilizando Arduino<sup>TM</sup></h3>
+            <h5>Revista de Enseñanza de la Física ISSN 0326-7091 23-28</h5>
+            <small>Noviembre 2016</small> <br>
+        </li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2>PRESENTACIONES A CONGRESOS</h2>
+    <ul>
+        <li>
+            <h3>Diseño y Desarrollo de un Serious Game para rehabilitación de Personas post-ACV</h3>
+            <h5>XXI Congreso Argentino de Bioingeniería - SABI 2017</h5>
+            <small>Ocutbre 2017</small> <br>
+        </li>
+
+        <li>
+            <h3>Experimentos de física utilizando Arduino<sup>TM</sup></h3>
+            <h5>Decimotercer Simposio de Investigación en Educación en Física, SIEF 13</h5>
+            <small>Ocutbre 2016</small> <br>
+        </li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2>CURSOS</h2>  
+    <ul>
+        <li>
+            <h3>Simulación en ciencia computacional</h3>
+            <h5>Escuela de Informática, XXIII CACIC 2017, La Plata</h5>
+            <small>Octubre 2017</small>
+        </li>
+
+        <li>
+            <h3>Primeros Auxilios e Higiene y Seguridad</h3>
+            <h5>Facultad de Ciecias Exactas, Físicas y Naturales, Universidad Nacional de San Juan</h5>
+            <small>Noviembre 2016</small>
+        </li>
+
+        <li>
+            <h3>Cuarto Nivel Anual de Inglés</h3>
+            <h5>Laboratorio de Idiomas, Centro de Ingenieros de San Juan</h5>
+            <small>Noviembre 2015</small>
+        </li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2>OTRAS ACTIVIDADES</h2>  
+    <ul>
+        <li>
+            <h3>Proyecto "Hacia la Inclusión Tecnológica"</h3>
+            <h5>Universidad Nacional de San Juan</h5>
+            <small>Enero 2017 a Diciembre 2017</small>
+            <p>
+                Este proyecto fue aprobado y financiado por la edición 2016 de "Compromiso Social Universitario", y se ejecutó de enero a febrero de 2017. 
+                Mis responsabilidades incluyeron capacitar en tecnologías de accesibilidad al resto de los voluntarios, como así también prestar asistencia a los miembros de la Asociación de Ciegos de San Juan en el uso de tecnologías de accessbilidad. 
+                También fui disertante de una charla sobre tecnologías de accesibilidad para dispositivos móviles, llevada a cabo en el Gabinete de Tecnología Médica de la Facultad de Ingeniería de la UNSJ.
+            </p>
+        </li>
+        <li>
+            <h3>Proyecto "Neurorehabilitac:Serious Games</h3>
+            <h5>Gabinete de Tecnología Médica, Facultad de IngenieríaUniversidad Nacional de San Juan</h5>
+            <small>Enero 2017 a Diciembre 2017</small>
+            <p>
+                Fui miembro del equipo de desarrollo de un <i>serious game</i> para la rehabilitación de los miembros superiores de personas que sufrieron un accidente cerebrovascular (ACV).
+                El juego involucraba la inmersión del paciente en un entorno de realidad virtual, en él cual participaba de minijuegos que estimulaban el uso de los miembros superiores,
+                en continua observación y asistencia por parte de un médico kinesiólogo.
+                Los datos de movimiento captados por un sensor Kinect eran registrados y luego evaluados para cuantificar avances en la recuperación de movimiento en los miembros superiores.
+            </p>
+        </li>
+        <li>
+            <h3>Sengunda Jorgada de Igeniería de Software</h3>
+            <h5>Universidad Champagnat</h5>
+            <small>Diciembre 2016</small>
+            <p>
+                Asistí a estas jornadas de ingeniería de software organizadas en cojunto entre la Universidad de Champagnat y la Universidad Nacional de San Juan. 
+                En la misma hubo conferencias sobre metodologías ágiles y temas afines a la ingeniería de software.
+            </p>
+        </li>
+        <li>
+            <h3>Reunión de Expertos - Proyecto "MoVeR-T": </h3>
+            <h5>Intituto de Informática, Facultad de Ciencias Exactas Físicas y Naturales, Universidad Nacional de San Juan</h5>
+            <small>Septiembre 2016</small>
+            <p>
+                Esta reuníon se dió en el marco del proyecto MoVeR-T: "Entorno de Videojuego en Realidad Virtual Telecontrolado para Rehabilitación Motriz.
+                Pude aportar mis conocimientos en el área para el progreso del equipo y del trabajo de dicho de proyecto.
+            </p>
+        </li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2>RECONOCIMIENTOS</h2>  
+    <ul>
+        <li>
+            <h3>2º Puesto en Hackaton: App "AgroFeria"</h3>
+            <h5>1º Hackaton Provincial "Agroproductiva 2.0", San Juan</h5>
+            <small>Septiembre 2017</small>
+            <p>
+                Participé como desarrollador del prototipo de una aplicación móvil que busca facilitar e incrementar
+                la comunicación y comercialización entre los productores y los consuimores de la Feria Agroproductiva mensual de la provincia de San Juan.
+            </p>
+        </li>
+    </ul>
+</section>
+
+<section class="mb-5">
+    <h2>IDIOMAS</h2>
+    <ul>
+        <li>
+            <h3>Competencia profesional completa en inglés</h3>
+            <h5>Cambridge Institute FCE Grade A: CEFR Level C1</h5>
+        </li>
+    </ul>
+</section> -->

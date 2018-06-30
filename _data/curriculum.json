@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Formación académica",
+        "slug": "formacion-academica",
+        "items": [{
+            "title": "Licenciatura en Ciencias de la Computación",
+            "subtitle": "Facultad de Ciecias Exactas, Físicas y Naturales, Universidad Nacional de San Juan",
+            "from": "Marzo 2013",
+            "to": "Presente",
+            "description": "Esta licenciatura brinda conocimientos que otorgan una amplia formación en Teoría de la Computación y formalismo aplicados en Algoritmos, Lenguajes e Ingeniería de Software. También capacita para la programación de computadoras, redes y objetos digitales. Ofrece también formación en Sistemas Inteligentes, Conectividad y Administración de la información."
+        }]
+    },
+    {
+        "name": "Actividad docente",
+        "slug": "acividad-docente",
+        "items": [{
+            "title": "Matemática Básica - Ayudate de Cátedra",
+            "subtitle": "Facultad de Ciecias Exactas, Físicas y Naturales, Universidad Nacional de San Juan",
+            "from": "Agosto 2016",
+            "to": "Marzo 2018",
+            "description": "Me desempeñe como ayudante de cátedra (con una dedicación semanal de 10 horas) en la materia Matemática Básica, correspondiente al primer año de la carrera Licenciatura en Ciencias de la Computación de la Universidad Nacional de San Juan."
+        }, {
+            "title": "Taller de Conocimientos Específicos - Miembro de equipo docente",
+            "subtitle": "Facultad de Ciecias Exactas, Físicas y Naturales, Universidad Nacional de San Juan",
+            "from": "Marzo 2017",
+            "description": "Fui miembro del equipo docente a cargo de dictar el Taller de Conocimientos específicos de la carrera Licencia en Ciencias de la Computación y de la carrera Licenciatura en Sistemas de Información, para los alumnos ingresantes"
+        }]
+    },
+    {
+        "name": "Presentaciones a congresos",
+        "slug": "presentaciones-a-congresos",
+        "items": [{
+            "title": "Diseño y Desarrollo de un Serious Game para rehabilitación de Personas post-ACV",
+            "subtitle": "XXI Congreso Argentino de Bioingeniería - SABI 2017",
+            "from": "Ocutbre 2017",
+            "description": ""
+        }, {
+            "title": "Experimentos de física utilizando Arduino<sup>TM</sup>",
+            "subtitle": "Decimotercer Simposio de Investigación en Educación en Física, SIEF 13",
+            "from": "Ocutbre 2016",
+            "description": ""
+        }]
+    }
+]
