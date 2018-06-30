@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-sm-9">
+    <div class="col-12 col-lg-8 col-xl-9">
         <h1 class="mb-4">
             CURRÍCULUM VITAE
             <button class="btn btn-default text-muted float-right"><i class="fa fa-download"></i> Descargar PDF</button>
@@ -23,7 +23,7 @@ layout: default
         </section>
         {% endfor %}
     </div>
-    <div class="col">
+    <div class="col-lg-4 col-xl-3 d-md-none d-lg-block">
         <ul class="nav flex-column border border-primary rounded sticky-top">
             {% for section in site.data.curriculum %}
             <li class="nav-item p-2">
