@@ -5,18 +5,18 @@ layout: default
     <div class="col-12 col-lg-8 col-xl-9">
         <h1 class="mb-4">
             CURRÍCULUM VITAE
-            <button class="btn btn-default text-muted float-right"><i class="fa fa-download"></i> Descargar PDF</button>
+            <!-- <button class="btn btn-default"><i class="fa fa-download"></i> Descargar PDF</button> -->
         </h1>
         
         {% for section in site.data.curriculum %}
         <section id="{{section.slug}}" class="mb-5">
-            <h3 class="text-uppercase"><strong>{{ section.name }}</strong></h3>
-            <hr>
+            <h3 class="text-uppercase mb-3"><strong>{{ section.name }}</strong></h3>
+            <!-- <hr> -->
             {% for item in section.items %}
-            <div>
-                <span class="float-right"><i>{{ item.from }} {% if item.to %}-{% endif %} {{ item.to }}</i></span>
+            <div class="border-left border-primary pl-2 mb-4">
                 <h4>{{ item.title }}</h4>
                 <h5 class="text-muted">{{ item.subtitle }}</h5>
+                <p class=""><i>{{ item.from }} {% if item.to %}-{% endif %} {{ item.to }}</i></p>
                 <p>{{ item.description }}</p>
             </div>
             {% endfor %}
