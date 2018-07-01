@@ -9,8 +9,15 @@
             "to": "Presente",
             "description": "Esta licenciatura brinda conocimientos que otorgan una amplia formación en Teoría de la Computación y formalismo aplicados en Algoritmos, Lenguajes e Ingeniería de Software. También capacita para la programación de computadoras, redes y objetos digitales. Ofrece también formación en Sistemas Inteligentes, Conectividad y Administración de la información."
         }]
-    },
-    {
+    }, {
+        "name": "Publicaciones",
+        "slug": "publicaciones",
+        "items": [{
+            "title": "Experimentos de física utilizando Arduino<sup>TM</sup>",
+            "subtitle": "Revista de Enseñanza de la Física ISSN 0326-7091 23-28",
+            "from": "Noviembre 2016"
+        }]
+    }, {
         "name": "Actividad docente",
         "slug": "acividad-docente",
         "items": [{
@@ -37,8 +44,68 @@
         }, {
             "title": "Experimentos de física utilizando Arduino<sup>TM</sup>",
             "subtitle": "Decimotercer Simposio de Investigación en Educación en Física, SIEF 13",
-            "from": "Ocutbre 2016",
-            "description": ""
+            "from": "Ocutbre 2016"
+        }]
+    }, {
+        "name": "Cursos",
+        "slug": "cursos",
+        "items": [{
+            "title": "Simulación en ciencia computacional",
+            "subtitle": "Escuela de Informática, XXIII CACIC 2017, La Plata",
+            "from": "Octubre 2017"
+        }, {
+            "title": "Primeros Auxilios e Higiene y Seguridad",
+            "subtitle": "Facultad de Ciecias Exactas, Físicas y Naturales, Universidad Nacional de San Juan",
+            "from": "Noviembre 2016"
+        }, {
+            "title": "Cuarto Nivel Anual de Inglés",
+            "subtitle": "Laboratorio de Idiomas, Centro de Ingenieros de San Juan",
+            "from": "Noviembre 2015"
+        }]
+    }, {
+        "name": "Idiomas",
+        "slug": "idiomas",
+        "items": [{
+            "title": "Competencia profesional completa en inglés",
+            "subtitle": "Cambridge Institute FCE Grade A: CEFR Level C1",
+            "from": "Diciembre 2015"
+        }]
+    }, {
+        "name": "Reconocimientos",
+        "slug": "reconocimientos",
+        "items": [{
+            "title": "2º Puesto en Hackaton: App \"AgroFeria\"",
+            "subtitle": "1º Hackaton Provincial \"Agroproductiva 2.0\", San Juan",
+            "from": "Septiembre 2017",
+            "description": "Participé como desarrollador del prototipo de una aplicación móvil que busca facilitar e incrementar la comunicación y comercialización entre los productores y los consuimores de la Feria Agroproductiva, que se lleva a cabo mensualmente en la capital de la provincia de San Juan."
+        }]
+    }, {
+        "name": "Otras actividades",
+        "slug": "otras-actividades",
+        "items": [{
+            "title": "Proyecto \"Hacia la Inclusión Tecnológica\"",
+            "subtitle": "Universidad Nacional de San Juan",
+            "from": "Enero 2017",
+            "to": "Diciembre 2017",
+            "description": " Este proyecto fue aprobado y financiado por la edición 2016 de \"Compromiso Social Universitario\", y se ejecutó de enero a febrero de 2017. Mis responsabilidades incluyeron capacitar en tecnologías de accesibilidad al resto de los voluntarios, como así también prestar asistencia a los miembros de la Asociación de Ciegos de San Juan en el uso de tecnologías de accessbilidad. También fui disertante de una charla sobre tecnologías de accesibilidad para dispositivos móviles, llevada a cabo en el Gabinete de Tecnología Médica de la Facultad de Ingeniería de la UNSJ."
+        }, {
+            "title": "Proyecto \"Neurorehabilitac:Serious Games\"",
+            "subtitle": "Gabinete de Tecnología Médica, Facultad de IngenieríaUniversidad Nacional de San Juan",
+            "from": "",
+            "to": "",
+            "description": "Fui miembro del equipo de desarrollo de un <i>serious game</i> para la rehabilitación de los miembros superiores de personas que sufrieron un accidente cerebrovascular (ACV).El juego involucraba la inmersión del paciente en un entorno de realidad virtual, en él cual participaba de minijuegos que estimulaban el uso de los miembros superiores,en continua observación y asistencia por parte de un médico kinesiólogo.Los datos de movimiento captados por un sensor Kinect eran registrados y luego evaluados para cuantificar avances en la recuperación de movimiento en los miembros superiores."
+        }, {
+            "title": "Sengunda Jorgada de Igeniería de Software",
+            "subtitle": "Universidad Champagnat",
+            "from": "Diciembre 2016",
+            "to": "",
+            "description": "Asistí a estas jornadas de ingeniería de software organizadas en cojunto entre la Universidad de Champagnat y la Universidad Nacional de San Juan. En la misma hubo conferencias sobre metodologías ágiles y temas afines a la ingeniería de software."
+        }, {
+            "title": "Reunión de Expertos - Proyecto \"MoVeR-T\"",
+            "subtitle": "Intituto de Informática, Facultad de Ciencias Exactas Físicas y Naturales, Universidad Nacional de San Juan",
+            "from": "",
+            "to": "",
+            "description": "Esta reunión se dió en el marco del proyecto MoVeR-T: \"Entorno de Videojuego en Realidad Virtual Telecontrolado para Rehabilitación Motriz\". Pude aportar mis conocimientos en el área para el progreso del equipo y del trabajo de dicho de proyecto."
         }]
     }
 ]
